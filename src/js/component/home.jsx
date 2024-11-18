@@ -51,7 +51,14 @@ export const Home = () => {
 				<div className="border border-top-0 mx-auto" style={{ width: "95%", height: "0.25rem" }} />
 				<div className="border border-top-0 mx-auto" style={{ width: "90%", height: "0.25rem" }} />
 				</>
-				: ""
+				: 
+				<>
+				<div className="border border-top-0 bg-danger-subtle" style={{ height: "1.5rem" }}>
+					<span className="fs-6 fw-normal text-danger text-opacity-75">
+						No hay tareas, añadir tareas
+					</span>
+				</div>
+				</>
 			}
 		</div>
 	);
